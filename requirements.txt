@@ -1,5 +1,5 @@
-Flask<2.0.0
-Flask-SQLAlchemy==2.5.1
+Flask
+Flask-SQLAlchemy==3.0.3
 Flask-Migrate
 Flask-WTF
 Flask-Login
