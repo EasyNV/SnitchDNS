@@ -85,7 +85,7 @@ class SearchManager:
         query = query.order_by(desc(DNSQueryLogModel.id))
 
         if paginate:
-            rows = query.paginate(search_params.page, search_params.per_page, False)
+            rows = query.paginate(search_params)
         else:
             rows = query.all()
         return rows
