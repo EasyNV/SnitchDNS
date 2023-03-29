@@ -1,4 +1,4 @@
-Flask<2.0.0
+Flask
 Flask-SQLAlchemy
 Flask-Migrate
 Flask-WTF
@@ -19,4 +19,4 @@ tabulate
 python-dotenv
 progressbar2
 pyrad
-markupsafe==2.0.1
+markupsafe
